@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		982426C71AA73D35003D5AEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982426C61AA73D35003D5AEA /* AppDelegate.swift */; };
+		982426C91AA73D35003D5AEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 982426C81AA73D35003D5AEA /* Images.xcassets */; };
+		982426CC1AA73D35003D5AEA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 982426CA1AA73D35003D5AEA /* MainMenu.xib */; };
+		982426D81AA73D35003D5AEA /* NekoEmoticonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982426D71AA73D35003D5AEA /* NekoEmoticonTests.swift */; };
+		984B32161AAB411C00FF84D7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 984B32151AAB411C00FF84D7 /* Credits.rtf */; };
+		984E6B191AAED2150031E5D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 984E6B1B1AAED2150031E5D3 /* InfoPlist.strings */; };
+		984E6B1E1AAED2150031E5D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 984E6B201AAED2150031E5D3 /* InfoPlist.strings */; };
+		984E6B251AAED4BA0031E5D3 /* MenuDesc.conf in Resources */ = {isa = PBXBuildFile; fileRef = 984E6B231AAED2A30031E5D3 /* MenuDesc.conf */; };
+		985402A01AA7803400503D5E /* AXHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9854029F1AA7803400503D5E /* AXHelper.m */; };
+		98B60B521AB4AA0800A0F12A /* SendText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B60B511AB4AA0800A0F12A /* SendText.swift */; };
+		98FC49E51AA740C00076B880 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FC49E41AA740C00076B880 /* Bar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		982426D21AA73D35003D5AEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 982426B91AA73D35003D5AEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 982426C01AA73D35003D5AEA;
+			remoteInfo = NekoEmoticon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		980243F91AB42C9200200CFA /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		982426C11AA73D35003D5AEA /* Kaomewji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaomewji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		982426C61AA73D35003D5AEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		982426C81AA73D35003D5AEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		982426CB1AA73D35003D5AEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		982426D11AA73D35003D5AEA /* KaomewjiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaomewjiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		982426D61AA73D35003D5AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		982426D71AA73D35003D5AEA /* NekoEmoticonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NekoEmoticonTests.swift; sourceTree = "<group>"; };
+		984B32151AAB411C00FF84D7 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		984E6B151AAEABF70031E5D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		984E6B161AAED2140031E5D3 /* zh-CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-CN"; path = "zh-CN.lproj/MainMenu.strings"; sourceTree = "<group>"; };
+		984E6B1A1AAED2150031E5D3 /* zh-CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-CN"; path = "zh-CN.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		984E6B1F1AAED2150031E5D3 /* zh-CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-CN"; path = "zh-CN.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		984E6B221AAED2A30031E5D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text; name = en; path = en.lproj/MenuDesc.conf; sourceTree = "<group>"; };
+		984E6B241AAED2A90031E5D3 /* zh-CN */ = {isa = PBXFileReference; lastKnownFileType = text; name = "zh-CN"; path = "zh-CN.lproj/MenuDesc.conf"; sourceTree = "<group>"; };
+		984E6B2B1AAED9CA0031E5D3 /* Kaomewji.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Kaomewji.entitlements; sourceTree = "<group>"; };
+		984E6B2F1AAF20D10031E5D3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		984E6B311AAF20DE0031E5D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9854029D1AA7803300503D5E /* NekoEmoticon-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NekoEmoticon-Bridging-Header.h"; sourceTree = "<group>"; };
+		9854029E1AA7803400503D5E /* AXHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXHelper.h; sourceTree = "<group>"; };
+		9854029F1AA7803400503D5E /* AXHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXHelper.m; sourceTree = "<group>"; };
+		98B60B511AB4AA0800A0F12A /* SendText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendText.swift; sourceTree = "<group>"; };
+		98FC49E41AA740C00076B880 /* Bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		982426BE1AA73D35003D5AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		982426CE1AA73D35003D5AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		982426B81AA73D35003D5AEA = {
+			isa = PBXGroup;
+			children = (
+				984E6B2B1AAED9CA0031E5D3 /* Kaomewji.entitlements */,
+				982426C31AA73D35003D5AEA /* NekoEmoticon */,
+				982426D41AA73D35003D5AEA /* NekoEmoticonTests */,
+				982426C21AA73D35003D5AEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		982426C21AA73D35003D5AEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				982426C11AA73D35003D5AEA /* Kaomewji.app */,
+				982426D11AA73D35003D5AEA /* KaomewjiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		982426C31AA73D35003D5AEA /* NekoEmoticon */ = {
+			isa = PBXGroup;
+			children = (
+				982426C61AA73D35003D5AEA /* AppDelegate.swift */,
+				98FC49E41AA740C00076B880 /* Bar.swift */,
+				98B60B511AB4AA0800A0F12A /* SendText.swift */,
+				982426C81AA73D35003D5AEA /* Images.xcassets */,
+				982426CA1AA73D35003D5AEA /* MainMenu.xib */,
+				982426C41AA73D35003D5AEA /* Supporting Files */,
+				9854029E1AA7803400503D5E /* AXHelper.h */,
+				9854029F1AA7803400503D5E /* AXHelper.m */,
+				9854029D1AA7803300503D5E /* NekoEmoticon-Bridging-Header.h */,
+				980243F91AB42C9200200CFA /* MyPlayground.playground */,
+			);
+			path = NekoEmoticon;
+			sourceTree = "<group>";
+		};
+		982426C41AA73D35003D5AEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				984E6B2F1AAF20D10031E5D3 /* Info.plist */,
+				984E6B1B1AAED2150031E5D3 /* InfoPlist.strings */,
+				984E6B231AAED2A30031E5D3 /* MenuDesc.conf */,
+				984B32151AAB411C00FF84D7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		982426D41AA73D35003D5AEA /* NekoEmoticonTests */ = {
+			isa = PBXGroup;
+			children = (
+				982426D71AA73D35003D5AEA /* NekoEmoticonTests.swift */,
+				982426D51AA73D35003D5AEA /* Supporting Files */,
+			);
+			path = NekoEmoticonTests;
+			sourceTree = "<group>";
+		};
+		982426D51AA73D35003D5AEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				984E6B201AAED2150031E5D3 /* InfoPlist.strings */,
+				982426D61AA73D35003D5AEA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		982426C01AA73D35003D5AEA /* Kaomewji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 982426DB1AA73D35003D5AEA /* Build configuration list for PBXNativeTarget "Kaomewji" */;
+			buildPhases = (
+				982426BD1AA73D35003D5AEA /* Sources */,
+				982426BE1AA73D35003D5AEA /* Frameworks */,
+				982426BF1AA73D35003D5AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kaomewji;
+			productName = NekoEmoticon;
+			productReference = 982426C11AA73D35003D5AEA /* Kaomewji.app */;
+			productType = "com.apple.product-type.application";
+		};
+		982426D01AA73D35003D5AEA /* KaomewjiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 982426DE1AA73D35003D5AEA /* Build configuration list for PBXNativeTarget "KaomewjiTests" */;
+			buildPhases = (
+				982426CD1AA73D35003D5AEA /* Sources */,
+				982426CE1AA73D35003D5AEA /* Frameworks */,
+				982426CF1AA73D35003D5AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				982426D31AA73D35003D5AEA /* PBXTargetDependency */,
+			);
+			name = KaomewjiTests;
+			productName = NekoEmoticonTests;
+			productReference = 982426D11AA73D35003D5AEA /* KaomewjiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		982426B91AA73D35003D5AEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = h4x;
+				TargetAttributes = {
+					982426C01AA73D35003D5AEA = {
+						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 0820;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					982426D01AA73D35003D5AEA = {
+						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = 982426C01AA73D35003D5AEA;
+					};
+				};
+			};
+			buildConfigurationList = 982426BC1AA73D35003D5AEA /* Build configuration list for PBXProject "Kaomewji" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-CN",
+			);
+			mainGroup = 982426B81AA73D35003D5AEA;
+			productRefGroup = 982426C21AA73D35003D5AEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				982426C01AA73D35003D5AEA /* Kaomewji */,
+				982426D01AA73D35003D5AEA /* KaomewjiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		982426BF1AA73D35003D5AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982426C91AA73D35003D5AEA /* Images.xcassets in Resources */,
+				984E6B251AAED4BA0031E5D3 /* MenuDesc.conf in Resources */,
+				982426CC1AA73D35003D5AEA /* MainMenu.xib in Resources */,
+				984B32161AAB411C00FF84D7 /* Credits.rtf in Resources */,
+				984E6B191AAED2150031E5D3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		982426CF1AA73D35003D5AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				984E6B1E1AAED2150031E5D3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		982426BD1AA73D35003D5AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				985402A01AA7803400503D5E /* AXHelper.m in Sources */,
+				98B60B521AB4AA0800A0F12A /* SendText.swift in Sources */,
+				982426C71AA73D35003D5AEA /* AppDelegate.swift in Sources */,
+				98FC49E51AA740C00076B880 /* Bar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		982426CD1AA73D35003D5AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982426D81AA73D35003D5AEA /* NekoEmoticonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		982426D31AA73D35003D5AEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 982426C01AA73D35003D5AEA /* Kaomewji */;
+			targetProxy = 982426D21AA73D35003D5AEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		982426CA1AA73D35003D5AEA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				982426CB1AA73D35003D5AEA /* Base */,
+				984E6B151AAEABF70031E5D3 /* en */,
+				984E6B161AAED2140031E5D3 /* zh-CN */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		984E6B1B1AAED2150031E5D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				984E6B1A1AAED2150031E5D3 /* zh-CN */,
+				984E6B311AAF20DE0031E5D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		984E6B201AAED2150031E5D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				984E6B1F1AAED2150031E5D3 /* zh-CN */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		984E6B231AAED2A30031E5D3 /* MenuDesc.conf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				984E6B221AAED2A30031E5D3 /* en */,
+				984E6B241AAED2A90031E5D3 /* zh-CN */,
+			);
+			name = MenuDesc.conf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		982426D91AA73D35003D5AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		982426DA1AA73D35003D5AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		982426DC1AA73D35003D5AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Kaomewji.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/NekoEmoticon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.h4x3rotab.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Kaomewji;
+				SWIFT_OBJC_BRIDGING_HEADER = "NekoEmoticon/NekoEmoticon-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		982426DD1AA73D35003D5AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Kaomewji.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/NekoEmoticon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.h4x3rotab.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Kaomewji;
+				SWIFT_OBJC_BRIDGING_HEADER = "NekoEmoticon/NekoEmoticon-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		982426DF1AA73D35003D5AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NekoEmoticonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.h4x3rotab.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = KaomewjiTests;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kaomewji.app/Contents/MacOS/Kaomewji";
+			};
+			name = Debug;
+		};
+		982426E01AA73D35003D5AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NekoEmoticonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.h4x3rotab.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = KaomewjiTests;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kaomewji.app/Contents/MacOS/Kaomewji";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		982426BC1AA73D35003D5AEA /* Build configuration list for PBXProject "Kaomewji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				982426D91AA73D35003D5AEA /* Debug */,
+				982426DA1AA73D35003D5AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		982426DB1AA73D35003D5AEA /* Build configuration list for PBXNativeTarget "Kaomewji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				982426DC1AA73D35003D5AEA /* Debug */,
+				982426DD1AA73D35003D5AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		982426DE1AA73D35003D5AEA /* Build configuration list for PBXNativeTarget "KaomewjiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				982426DF1AA73D35003D5AEA /* Debug */,
+				982426E01AA73D35003D5AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 982426B91AA73D35003D5AEA /* Project object */;
+}

@@ -1,0 +1,12 @@
+/* Class = "NSMenuItem"; title = "Quit"; ObjectID = "AAE-l5-eRl"; */
+"AAE-l5-eRl.title" = "退出";
+
+/* Class = "NSMenuItem"; title = "About..."; ObjectID = "CQP-rd-Dp4"; */
+"CQP-rd-Dp4.title" = "关于...";
+
+/* Class = "NSMenuItem"; title = "Kaomewji"; ObjectID = "HrL-w3-Y2k"; */
+"HrL-w3-Y2k.title" = "颜文字喵";
+
+/* Class = "NSMenuItem"; title = "Show configuration"; ObjectID = "fip-h7-DJG"; */
+"fip-h7-DJG.title" = "显示配置文件";
+
